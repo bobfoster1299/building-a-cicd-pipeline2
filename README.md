@@ -24,14 +24,7 @@ Description on how to improve the project further
 
 YouTube video
 
-Screenshot showing the project cloned into Azure Cloud Shell:
-![screenshot-git-clone.png](screenshot-git-clone.png) 
 
-Screenshot showing the passing tests that are displayed after running:
-![screenshot-make-all.png](screenshot-make-all.png) 
-
-Screenshot showing the output of a test run:
-![screenshot-output-of-test-run-cloudshell.png](screenshot-output-of-test-run-cloudshell.png)
 
 
 
@@ -45,10 +38,11 @@ In Azure Cloud Shell clone the repo:
 ```
 git clone git@github.com:bobfoster1299/building-a-cicd-pipeline2.git
 ```
+![screenshot-git-clone.png](screenshot-git-clone.png) 
 
 Change into the new directory:
 ```
-cd building-a-cicd-pipeline2/
+cd building-a-cicd-pipeline2
 ```
 
 Create a virtual environment:
@@ -65,6 +59,7 @@ Install dependencies in the virtual environment and run tests:
 ```
 make all
 ```
+![screenshot-make-all.png](screenshot-make-all.png) 
 
 Start the application in the local environment:
 ```
