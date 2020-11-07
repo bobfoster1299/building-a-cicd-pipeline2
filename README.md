@@ -1,5 +1,7 @@
 ![Python application test with Github Actions](https://github.com/bobfoster1299/building-a-cicd-pipeline2/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 
+[![Build Status](https://dev.azure.com/robertfoster2/building-a-cicd-pipeline2/_apis/build/status/bobfoster1299.building-a-cicd-pipeline2?branchName=main)](https://dev.azure.com/robertfoster2/building-a-cicd-pipeline2/_build/latest?definitionId=9&branchName=main)
+
 By Rob Foster
 
 Updated 07/11/2020
