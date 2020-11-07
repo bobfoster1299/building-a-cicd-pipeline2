@@ -19,6 +19,8 @@ A [spreadsheet](project-schedule.xlsx) has been created to manage the project sc
 
 An architectural diagram is available here.
 
+See here for a YouTube video demonstrating the project.
+
 # Instructions
 
 ## Deploy the app in Azure Cloud Shell
@@ -100,10 +102,13 @@ If it's working you should see the following output:
 You can also visit the URL of the App Service via the browser and you should see the following page:
 ![screenshot-browser.png](screenshots/screenshot-browser.png)
 
+View the app logs:
+```
+az webapp log tail -g rob-udacity-project --name rob-udacity-webapp
+```
+![screenshot-logs.png](screenshots/screenshot-logs.png)
+
+
 ## Future improvements
 
 Currently, when a commit is made to the GitHub repo, it does not automatically trigger a build in the Azure pipeline. In future it would be good to enable the build to trigger automatically.
-
-## Demo
-
-See here for a YouTube video demonstrating the project.
