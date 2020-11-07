@@ -139,7 +139,7 @@ Port: 443
 {"prediction":[20.35373177134412]}
 ```
 
-You can also visit the URL, e.g. [https://rob-udacity-webapp.azurewebsites.net](https://rob-udacity-webapp.azurewebsites.net) via the browser and you should see the following page:
+You can also visit the URL of the App Service via the browser and you should see the following page:
 
 ![screenshot-browser.png](screenshots/screenshot-browser.png)
 
