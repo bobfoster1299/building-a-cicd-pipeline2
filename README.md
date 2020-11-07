@@ -40,6 +40,51 @@ Screenshot showing the output of a test run:
 
 # Instructions
 
+## Continuous integration
+In Azure Cloud Shell clone the repo:
+```
+git clone git@github.com:bobfoster1299/building-a-cicd-pipeline2.git
+```
+
+Change into the new directory:
+```
+cd building-a-cicd-pipeline2/
+```
+
+Create a virtual environment:
+```
+make setup
+```
+
+Activate the virtual environment:
+```
+source ~/.udacity-devops/bin/activate
+```
+
+Install dependencies in the virtual environment and run tests:
+```
+make all
+```
+
+Start the application in the local environment:
+```
+python3 app.py
+```
+
+Open a separate Cloud Shell and test that the app is working:
+```
+./make_prediction.sh
+```
+
+The output should match the below:
+![screenshot-output-of-test-run-cloudshell.png](screenshot-output-of-test-run-cloudshell.png)
+
+
+
+
+
+
+
 
 ## Create the App Service
 
