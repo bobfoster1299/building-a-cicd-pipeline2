@@ -9,13 +9,13 @@ This is my submission for the 'Building a CI/CD Pipeline' project as part of the
 
 This project contains a python application that is designed to predict housing prices in Boston (I did not create the python app myself). This repo will enable you to:
 - Deploy the app in Azure CloudShell
-- Deploy the app to an Azure App Service
+- Deploy the app as an Azure App Service
 
-Any commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps. After commiting new code to GitHub you can trigger, the pipeline can test the code and deploy the new release to an Azure App Service. 
+Any commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps. After commiting new code to GitHub, the pipeline can test the code and deploy the new release to the Azure App Service. 
 
-I created a [trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline) board to keep track of tasks to be completed.
+A [Trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline) board has been created to keep track of tasks to be completed.
 
-I created a [spreadsheet](project-management-template.xlsx) to manage the project schedule.
+A [spreadsheet](project-management-template.xlsx) has been created to manage the project schedule.
 
 An architectural diagram is available here.
 
