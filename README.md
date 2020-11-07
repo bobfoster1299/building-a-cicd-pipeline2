@@ -86,6 +86,9 @@ Screenshot of the App Service in Azure:
 Screenshot of successful prediction against the app running in Azure App Service:
 ![screenshot-make_predict_azure_app.png](screenshots/screenshot-make_predict_azure_app.png)
 
+Screenshot of a successful run of the project in Azure Pipelines:
+![screenshot-azure-pipeline-success.png](screenshot-azure-pipeline-success.png)
+
 
 ## Create the App Service
 
