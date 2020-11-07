@@ -10,6 +10,25 @@ It does the following:
 - Tests code when it is pushed to GitHub.
 - In Azure DevOps the code is then tested and deployed to the App Service.
 
+See [trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline).
+
+[Spreadsheet](project-management-template.xlsx) of project plan
+
+Architectural diagram
+
+Screenshots demonstrating key steps
+
+Description on how to improve the project further
+
+YouTube video
+
+A ![screenshot](screenshot-git-clone.png) showing the project cloned into Azure Cloud Shell.
+
+A ![screenshot](screenshot-make-all.png) showing the passing tests that are displayed after running.
+
+
+
+
 
 
 
