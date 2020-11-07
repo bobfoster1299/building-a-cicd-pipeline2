@@ -1,8 +1,8 @@
+![Python application test with Github Actions](https://github.com/bobfoster1299/building-a-cicd-pipeline2/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
+
 By Rob Foster
 
 Updated 07/11/2020
-
-![Python application test with Github Actions](https://github.com/bobfoster1299/building-a-cicd-pipeline2/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 
 # Introduction
 This is my submission for the 'Building a CI/CD Pipeline' project as part of the 'DevOps Engineer for Microsoft Azure' nanodegree program from [Udacity](https://udacity.com).
