@@ -2,6 +2,8 @@ By Rob Foster
 
 Updated 07/11/2020
 
+![Python application test with Github Actions](https://github.com/bobfoster1299/building-a-cicd-pipeline2/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
+
 # Introduction
 This is my submission for the 'Building a CI/CD Pipeline' project as part of the 'DevOps Engineer for Microsoft Azure' nanodegree program from [Udacity](https://udacity.com).
 
@@ -28,9 +30,8 @@ Screenshot showing the project cloned into Azure Cloud Shell:
 Screenshot showing the passing tests that are displayed after running:
 ![screenshot-make-all.png](screenshot-make-all.png) 
 
-
-
-
+Screenshot showing the output of a test run:
+![screenshot-output-of-test-run-cloudshell.png](screenshot-output-of-test-run-cloudshell.png)
 
 
 
