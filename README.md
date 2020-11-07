@@ -59,7 +59,7 @@ Install dependencies in the virtual environment and run tests:
 ```
 make all
 ```
-![screenshot-make-all.png](screenshots/screenshot-make-all.png) 
+![screenshot-make_all.png](screenshots/screenshot-make_all.png) 
 
 Start the application in the local environment:
 ```
@@ -81,13 +81,13 @@ The output should match the below:
 ## Continuous delivery
 
 Screenshot of the App Service in Azure:
-![screenshot-app-service.png](screenshots/screenshot-app-service.png)
+![screenshot-app_service.png](screenshots/screenshot-app_service.png)
 
 Screenshot of successful prediction against the app running in Azure App Service:
 ![screenshot-make_predict_azure_app.png](screenshots/screenshot-make_predict_azure_app.png)
 
 Screenshot of a successful run of the project in Azure Pipelines:
-![screenshot-azure-pipeline-success.png](screenshot-azure-pipeline-success.png)
+![screenshot-azure_pipeline_success.png](screenshot-azure_pipeline_success.png)
 
 
 ## Create the App Service
