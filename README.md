@@ -7,29 +7,19 @@ Updated 07/11/2020
 # Introduction
 This is my submission for the 'Building a CI/CD Pipeline' project as part of the 'DevOps Engineer for Microsoft Azure' nanodegree program from [Udacity](https://udacity.com).
 
-It does the following:
-- Creates a App Service in Azure.
-- Tests code when it is pushed to GitHub.
-- In Azure DevOps the code is then tested and deployed to the App Service.
-
-See [trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline).
-
-[Spreadsheet](project-management-template.xlsx) of project plan
-
-Architectural diagram
-
-Screenshots demonstrating key steps
-
-Description on how to improve the project further
-
-YouTube video
+This project contains a python application that is designed to predict housing prices in Boston (I did not create the python app myself). This repo will enable you to:
+- Deploy the app on your local machine
+- Deploy the app in Azure CloudShell
+- Deploy the app in Azure App Services
 
 
+Any commits to the GitHub repo trigger code testing using GitHub Actions. A pipeline has been created in Azure DevOps. After commiting new code to GitHub you can trigger the pipeline to test the code and deploy the new release to Azure App Service. 
 
+The [trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline) board for the project is here.
 
+A [Spreadsheet](project-management-template.xlsx) of the project schedule is here.
 
-
-
+See here for an architectural diagram.
 
 # Instructions
 
@@ -146,3 +136,7 @@ You can also visit the URL of the App Service via the browser and you should see
 ## Future improvements
 
 Currently, when a commit is made to the GitHub repo, it does not automatically trigger a build in the Azure pipeline. In future it would be good to enable the build to trigger automatically.
+
+## Demo
+
+See here for a YouTube video demonstrating the project.
