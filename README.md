@@ -38,7 +38,7 @@ In Azure Cloud Shell, clone the repo:
 ```
 git clone git@github.com:bobfoster1299/building-a-cicd-pipeline2.git
 ```
-![screenshot-git-clone.png](screenshots/screenshot-git-clone.png) 
+![screenshot-git_clone.png](screenshots/screenshot-git_clone.png) 
 
 Change into the new directory:
 ```
