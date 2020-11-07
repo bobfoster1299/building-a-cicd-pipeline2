@@ -15,7 +15,7 @@ Any commits to the GitHub repo trigger automated code testing using GitHub Actio
 
 A [Trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline) board has been created to keep track of tasks to be completed.
 
-A [spreadsheet](project-management-template.xlsx) has been created to manage the project schedule.
+A [spreadsheet](project-schedule.xlsx) has been created to manage the project schedule.
 
 An architectural diagram is available here.
 
