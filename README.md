@@ -143,5 +143,3 @@ You can also visit the URL, e.g. [https://rob-udacity-webapp.azurewebsites.net](
 ![screenshot-browser.png](screenshots/screenshot-browser.png)
 
 
-
-
