@@ -8,22 +8,20 @@ Updated 07/11/2020
 This is my submission for the 'Building a CI/CD Pipeline' project as part of the 'DevOps Engineer for Microsoft Azure' nanodegree program from [Udacity](https://udacity.com).
 
 This project contains a python application that is designed to predict housing prices in Boston (I did not create the python app myself). This repo will enable you to:
-- Deploy the app on your local machine
 - Deploy the app in Azure CloudShell
-- Deploy the app in Azure App Services
+- Deploy the app to an Azure App Service
 
+Any commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps. After commiting new code to GitHub you can trigger, the pipeline can test the code and deploy the new release to an Azure App Service. 
 
-Any commits to the GitHub repo trigger code testing using GitHub Actions. A pipeline has been created in Azure DevOps. After commiting new code to GitHub you can trigger the pipeline to test the code and deploy the new release to Azure App Service. 
+I created a [trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline) board to keep track of tasks to be completed.
 
-The [trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline) board for the project is here.
+I created a [spreadsheet](project-management-template.xlsx) to manage the project schedule.
 
-A [Spreadsheet](project-management-template.xlsx) of the project schedule is here.
-
-See here for an architectural diagram.
+An architectural diagram is available here.
 
 # Instructions
 
-## Continuous integration
+## Deploy the app in Azure CloudShell
 In Azure Cloud Shell, clone the repo:
 ```
 git clone git@github.com:bobfoster1299/building-a-cicd-pipeline2.git
