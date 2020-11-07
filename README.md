@@ -59,7 +59,7 @@ Install dependencies in the virtual environment and run tests:
 ```
 make all
 ```
-![screenshot-make-all.png](screenshot-make-all.png) 
+![screenshot-make-all.png](screenshots/screenshot-make-all.png) 
 
 Start the application in the local environment:
 ```
@@ -72,7 +72,7 @@ Open a separate Cloud Shell and test that the app is working:
 ```
 
 The output should match the below:
-![screenshot-make_prediction.png](screenshot-make_prediction.png)
+![screenshot-make_prediction.png](screenshots/screenshot-make_prediction.png)
 
 
 
@@ -81,10 +81,10 @@ The output should match the below:
 ## Continuous delivery
 
 Screenshot of the App Service in Azure:
-![screenshot-app-service.png](screenshot-app-service.png)
+![screenshot-app-service.png](screenshots/screenshot-app-service.png)
 
 Screenshot of successful prediction against the app running in Azure App Service:
-![screenshot-make_predict_azure_app.png](screenshot-make_predict_azure_app.png)
+![screenshot-make_predict_azure_app.png](screenshots/screenshot-make_predict_azure_app.png)
 
 
 ## Create the App Service
