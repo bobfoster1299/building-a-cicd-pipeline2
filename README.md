@@ -50,5 +50,26 @@ These are the basic steps you need to follow to set up the pipeline in Azure Dev
 - Under Project Settings create a new service connection to Azure Resource Manager, scoped to your subscription and resource group.
 - Create a new pipeline linked to your GitHub repo.
 
+## CI/CD
+
+Whenever the code is updated and pushed to GitHub, the following will happen:
+- GitHub Actions will test the code.
+- Azure DevOps will also test the code.
+- If the build is successful it will be deployed to the Azure App Service.
+
+To test the app, edit line 28 of the make_predict_azure_app.sh script with the DNS name of your app. Then run the script:
+```
+./make_predict_azure_app.sh 
+```
+
+If it's working you should see the following output:
+```
+Port: 443
+{"prediction":[20.35373177134412]}
+```
+
+You can also visit the URL (e.g. (https://rob-udacity-webapp.azurewebsites.net)[https://rob-udacity-webapp.azurewebsites.net/]) via the browser and you should a page displaying 'Sklearn Prediction Home'.
+
+
 
 
