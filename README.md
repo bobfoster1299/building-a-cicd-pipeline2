@@ -34,7 +34,7 @@ YouTube video
 # Instructions
 
 ## Continuous integration
-In Azure Cloud Shell clone the repo:
+In Azure Cloud Shell, clone the repo:
 ```
 git clone git@github.com:bobfoster1299/building-a-cicd-pipeline2.git
 ```
@@ -72,13 +72,19 @@ Open a separate Cloud Shell and test that the app is working:
 ```
 
 The output should match the below:
-![screenshot-output-of-test-run-cloudshell.png](screenshot-output-of-test-run-cloudshell.png)
+![screenshot-make_prediction.png](screenshot-make_prediction.png)
 
 
 
 
 
+## Continuous delivery
 
+Screenshot of the App Service in Azure:
+![screenshot-app-service.png](screenshot-app-service.png)
+
+Screenshot of successful prediction against the app running in Azure App Service:
+![screenshot-make_predict_azure_app.png](screenshot-make_predict_azure_app.png)
 
 
 ## Create the App Service
