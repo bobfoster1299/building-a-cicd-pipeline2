@@ -23,11 +23,9 @@ Description on how to improve the project further
 YouTube video
 
 Screenshot showing the project cloned into Azure Cloud Shell:
-
 ![screenshot-git-clone.png](screenshot-git-clone.png) 
 
 Screenshot showing the passing tests that are displayed after running:
-
 ![screenshot-make-all.png](screenshot-make-all.png) 
 
 
