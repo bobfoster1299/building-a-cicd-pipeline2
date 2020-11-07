@@ -143,4 +143,6 @@ You can also visit the URL of the App Service via the browser and you should see
 
 ![screenshot-browser.png](screenshots/screenshot-browser.png)
 
+## Future improvements
 
+Currently, when a commit is made to the GitHub repo, it does not automatically trigger a build in the Azure pipeline. In future it would be good to enable the build to trigger automatically.
