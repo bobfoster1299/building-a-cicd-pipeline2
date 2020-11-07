@@ -43,9 +43,9 @@ az webapp up -n rob-udacity-webapp -g rob-udacity-project
 
 ## Create the Azure DevOps pipeline
 
-These are the basic steps you need to follow to set up the pipeline in Azure DevOps (more information on this process can be found (here)[https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl]:
+These are the basic steps you need to follow to set up the pipeline in Azure DevOps (more information on this process can be found [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl):
 
-- Go to (https://dev.azure.com)[https://dev.azure.com] and sign in.
+- Go to [https://dev.azure.com](https://dev.azure.com) and sign in.
 - Create a new private project.
 - Under Project Settings create a new service connection to Azure Resource Manager, scoped to your subscription and resource group.
 - Create a new pipeline linked to your GitHub repo.
@@ -68,7 +68,7 @@ Port: 443
 {"prediction":[20.35373177134412]}
 ```
 
-You can also visit the URL (e.g. (https://rob-udacity-webapp.azurewebsites.net)[https://rob-udacity-webapp.azurewebsites.net/]) via the browser and you should a page displaying 'Sklearn Prediction Home'.
+You can also visit the URL, e.g. [https://rob-udacity-webapp.azurewebsites.net](https://rob-udacity-webapp.azurewebsites.net) via the browser and you should a page displaying 'Sklearn Prediction Home'.
 
 
 
