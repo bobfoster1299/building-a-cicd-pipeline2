@@ -60,6 +60,7 @@ Open a separate Cloud Shell and test that the app is working:
 ```
 
 The output should match the below:
+
 ![screenshot-make_prediction.png](screenshots/screenshot-make_prediction.png)
 
 
@@ -81,11 +82,11 @@ Next, create the pipeline in Azure DevOps. More information on this process can 
 - Create a new pipeline linked to your GitHub repo.
 
 Screenshot of the App Service in Azure:
+
 ![screenshot-app_service.png](screenshots/screenshot-app_service.png)
 
-
-
 Screenshot of a successful run of the project in Azure Pipelines:
+
 ![screenshot-azure_pipeline_success.png](screenshots/screenshot-azure_pipeline_success.png)
 
 To test the app running in Azure App Service, edit line 28 of the make_predict_azure_app.sh script with the DNS name of your app. Then run the script:
