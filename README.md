@@ -21,7 +21,7 @@ An architectural diagram is available here.
 
 # Instructions
 
-## Deploy the app in Azure CloudShell
+## Deploy the app in Azure Cloud Shell
 In Azure Cloud Shell, clone the repo:
 ```
 git clone git@github.com:bobfoster1299/building-a-cicd-pipeline2.git
@@ -66,69 +66,37 @@ The output should match the below:
 
 
 
-## Continuous delivery
-
-Screenshot of the App Service in Azure:
-![screenshot-app_service.png](screenshots/screenshot-app_service.png)
-
-Screenshot of successful prediction against the app running in Azure App Service:
-![screenshot-make_predict_azure_app.png](screenshots/screenshot-make_predict_azure_app.png)
-
-Screenshot of a successful run of the project in Azure Pipelines:
-![screenshot-azure_pipeline_success.png](screenshots/screenshot-azure_pipeline_success.png)
-
-
-## Create the App Service
-
-Clone the repo:
-```
-git clone git@github.com:bobfoster1299/building-a-cicd-pipeline2.git
-```
-
-Change into the new directory:
-```
-cd building-a-cicd-pipeline2
-```
-
-Login to Azure:
-```
-az login
-```
+## Deploy the app to an Azure App Service
 
 Create an App Service in Azure. In this example the App Service is called rob-udacity-webapp and the resource group is called rob-udacity-project:
 ```
 az webapp up -n rob-udacity-webapp -g rob-udacity-project
 ```
 
-## Create the Azure DevOps pipeline
-
-These are the basic steps you need to follow to set up the pipeline in Azure DevOps (more information on this process can be found [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl)):
+Next, create the pipeline in Azure DevOps. More information on this process can be found [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). The basic steps to set up the pipeline are:
 
 - Go to [https://dev.azure.com](https://dev.azure.com) and sign in.
 - Create a new private project.
 - Under Project Settings create a new service connection to Azure Resource Manager, scoped to your subscription and resource group.
 - Create a new pipeline linked to your GitHub repo.
 
-## CI/CD
+Screenshot of the App Service in Azure:
+![screenshot-app_service.png](screenshots/screenshot-app_service.png)
 
-Whenever the code is updated and pushed to GitHub, the following will happen:
-- GitHub Actions will test the code.
-- Azure DevOps will also test the code.
-- If the build is successful it will be deployed to the Azure App Service.
 
-To test the app, edit line 28 of the make_predict_azure_app.sh script with the DNS name of your app. Then run the script:
+
+Screenshot of a successful run of the project in Azure Pipelines:
+![screenshot-azure_pipeline_success.png](screenshots/screenshot-azure_pipeline_success.png)
+
+To test the app running in Azure App Service, edit line 28 of the make_predict_azure_app.sh script with the DNS name of your app. Then run the script:
 ```
 ./make_predict_azure_app.sh 
 ```
 
 If it's working you should see the following output:
-```
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+![screenshot-make_predict_azure_app.png](screenshots/screenshot-make_predict_azure_app.png)
 
 You can also visit the URL of the App Service via the browser and you should see the following page:
-
 ![screenshot-browser.png](screenshots/screenshot-browser.png)
 
 ## Future improvements
