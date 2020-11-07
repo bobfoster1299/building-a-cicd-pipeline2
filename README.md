@@ -43,7 +43,7 @@ az webapp up -n rob-udacity-webapp -g rob-udacity-project
 
 ## Create the Azure DevOps pipeline
 
-These are the basic steps you need to follow to set up the pipeline in Azure DevOps (more information on this process can be found [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl):
+These are the basic steps you need to follow to set up the pipeline in Azure DevOps (more information on this process can be found [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl)):
 
 - Go to [https://dev.azure.com](https://dev.azure.com) and sign in.
 - Create a new private project.
