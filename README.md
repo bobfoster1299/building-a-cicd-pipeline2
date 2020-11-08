@@ -141,7 +141,6 @@ You can then watch the load test:
 
 
 
-
 ## Future improvements
 
 Currently, there is only a single branch in GitHub. In the future is would be good to create multiple branches, so code can initially be tested and deployed in a staging environment. If it works correctly in the staging environment the changes could then be merged into the production branch and the code deployed into the production environment.
