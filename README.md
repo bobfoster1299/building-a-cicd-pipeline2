@@ -111,7 +111,7 @@ az webapp log tail -g rob-udacity-project --name rob-udacity-webapp
 
 ## Load testing
 
-We can use locust to do a load test against our application. In this example we will run do this on locally rather than in Azure. 
+We can use locust to do a load test against our application. In this example we will do a load test against the app running locally rather than in Azure. 
 
 Install locust:
 ```
