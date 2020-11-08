@@ -109,8 +109,6 @@ az webapp log tail -g rob-udacity-project --name rob-udacity-webapp
 ```
 ![screenshot-logs.png](screenshots/screenshot-logs.png)
 
-The log
-
 ## Future improvements
 
 Currently, when a commit is made to the GitHub repo, it does not automatically trigger a build in the Azure pipeline. In future it would be good to enable the build to trigger automatically.
