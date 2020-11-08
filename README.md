@@ -13,11 +13,12 @@ This project contains a python application that is designed to predict housing p
 
 Any commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps. After commiting new code to GitHub, the pipeline can test the code and deploy the new release to the Azure App Service. 
 
+Here is an architectural diagram:
+![architectural-diagram.png](architectural-diagram.png)
+
 A [Trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline) board has been created to keep track of tasks to be completed.
 
 A [spreadsheet](project-schedule.xlsx) has been created to manage the project schedule.
-
-An architectural diagram is available here.
 
 See here for a YouTube video demonstrating the project.
 
@@ -108,6 +109,7 @@ az webapp log tail -g rob-udacity-project --name rob-udacity-webapp
 ```
 ![screenshot-logs.png](screenshots/screenshot-logs.png)
 
+The log
 
 ## Future improvements
 
