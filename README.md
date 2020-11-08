@@ -11,7 +11,7 @@ This project contains a python application that is designed to predict housing p
 - Deploy the app in Azure CloudShell
 - Deploy the app as an Azure App Service
 
-Any commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps. After commiting new code to GitHub, the pipeline can test the code and deploy the new release to the Azure App Service. 
+Any commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps, and the updated code is also automatically tested in Azure DevOps and deployed to the Azure App Service. 
 
 Here is an architectural diagram:
 ![architectural-diagram.png](architectural-diagram.png)
@@ -111,4 +111,4 @@ az webapp log tail -g rob-udacity-project --name rob-udacity-webapp
 
 ## Future improvements
 
-Currently, when a commit is made to the GitHub repo, it does not automatically trigger a build in the Azure pipeline. In future it would be good to enable the build to trigger automatically.
+Currently, there is only a single branch in GitHub. In the future is would be good to create multiple branches, so code can initially be tested and deployed in a staging environment. If it works correctly in the staging environment the changes could then be merged into the production branch and the code deployed into the production environment.
