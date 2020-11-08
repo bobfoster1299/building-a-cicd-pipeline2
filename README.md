@@ -114,8 +114,9 @@ az webapp log tail -g rob-udacity-project --name rob-udacity-webapp
 We can use locust to do a load test against our application. In this example we will run do this on locally rather than in Azure. 
 
 Install locust:
+```
 pip install locust
-
+```
 Ensure the app is running:
 ```
 python app.py
