@@ -130,7 +130,7 @@ locust
 ```
 Open a browser and go to [http://localhost:8089](http://localhost:8089). Enter the total number of users to simulate, spawn rate, set the host to localhost:5000, and click Start Swarming:
 
-![screenshot-locust-main-page.png](screenshot-locust-main-page.png)
+![screenshot-locust_main_page.png](screenshot-locust_main_page.png)
 
 You can then watch the load test:
 
