@@ -54,7 +54,7 @@ make all
 
 Start the application in the local environment:
 ```
-python3 app.py
+python app.py
 ```
 
 Open a separate Cloud Shell and test that the app is working:
@@ -108,6 +108,34 @@ View the app logs:
 az webapp log tail -g rob-udacity-project --name rob-udacity-webapp
 ```
 ![screenshot-logs.png](screenshots/screenshot-logs.png)
+
+## Load testing
+
+We can use locust to do a load test against our application. In this example we will run do this on locally rather than in Azure. 
+
+Install locust:
+pip install locust
+
+Ensure the app is running:
+```
+python app.py
+```
+
+Start locust:
+```
+locust
+```
+Open a browser and go to (http://localhost:8089)[http://localhost:8089/]. Enter the total number of users to simulate, spawn rate, set the host to localhost:5000, and click Start Swarming.
+![screenshot-locust-main-page.png](screenshot-locust-main-page.png)
+
+You can then watch the load test:
+![screenshot-locust.png](screenshot-locust.png)
+
+
+
+
+
+
 
 ## Future improvements
 
