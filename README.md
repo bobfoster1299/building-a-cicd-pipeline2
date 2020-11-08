@@ -98,9 +98,11 @@ To test the app running in Azure App Service, edit line 28 of the make_predict_a
 ```
 
 If it's working you should see the following output:
+
 ![screenshot-make_predict_azure_app.png](screenshots/screenshot-make_predict_azure_app.png)
 
 You can also visit the URL of the App Service via the browser and you should see the following page:
+
 ![screenshot-browser.png](screenshots/screenshot-browser.png)
 
 View the app logs:
@@ -126,10 +128,12 @@ Start locust:
 ```
 locust
 ```
-Open a browser and go to (http://localhost:8089)[http://localhost:8089/]. Enter the total number of users to simulate, spawn rate, set the host to localhost:5000, and click Start Swarming.
+Open a browser and go to [http://localhost:8089](http://localhost:8089). Enter the total number of users to simulate, spawn rate, set the host to localhost:5000, and click Start Swarming:
+
 ![screenshot-locust-main-page.png](screenshot-locust-main-page.png)
 
 You can then watch the load test:
+
 ![screenshot-locust.png](screenshot-locust.png)
 
 
